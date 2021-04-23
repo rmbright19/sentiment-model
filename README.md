@@ -1,2 +1,2 @@
 # sentiment-model
-Deploying Twitter sentiment analysis on Heroku
+Deploying Twitter sentiment analysis on Heroku.

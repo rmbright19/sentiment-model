@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import TextPreprocessing as tp
 import pickle
+from sklearn.svm import LinearSVC
 
 loaded_classifier = pickle.load(open('sentiment_svc.pickle', 'rb'))
 loaded_vectorizer = pickle.load(open('sentiment_tfidf.pickle', 'rb'))
